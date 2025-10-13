@@ -48,13 +48,13 @@ export default function EventDetails() {
                 <detail.icon className="w-6 h-6 text-white" />
               </div>
             </motion.div>
-            <h3 className="text-sm font-semibold text-gray-500 uppercase mb-2">
+            <h3 className="text-base font-semibold text-gray-500 uppercase mb-2">
               {detail.label}
             </h3>
-            <p className="text-xl font-bold text-gray-800 mb-1">
+            <p className="text-2xl font-bold text-gray-800 mb-1">
               {detail.value}
             </p>
-            <p className="text-sm text-gray-600">{detail.subValue}</p>
+            <p className="text-lg text-gray-600">{detail.subValue}</p>
           </motion.div>
         ))}
       </div>

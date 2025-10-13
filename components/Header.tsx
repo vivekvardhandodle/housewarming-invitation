@@ -41,10 +41,10 @@ export default function Header() {
         transition={{ duration: 0.8, delay: 0.3 }}
         className="mb-4"
       >
-        <p className="text-lg md:text-xl text-gray-600 font-light mb-2">
+        <p className="text-xl md:text-2xl text-gray-600 font-light mb-2">
           దొడ్ల కుటుంబం ఆహ్వానిస్తోంది
         </p>
-        <p className="text-base md:text-lg text-gray-500 italic">
+        <p className="text-lg md:text-xl text-gray-500 italic">
           Dodle&apos;s Family invites you to
         </p>
       </motion.div>
@@ -65,9 +65,9 @@ export default function Header() {
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.7 }}
-        className="text-xl md:text-2xl font-serif text-gray-700 mb-1"
+        className="text-2xl md:text-3xl font-serif text-gray-700 mb-1"
       >
-        Griha Pravesh Ceremony
+        House Warming Ceremony
       </motion.h2>
 
       {/* Decorative Elements */}

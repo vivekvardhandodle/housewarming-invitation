@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { useForm } from 'react-hook-form'
-import { X, User, Mail, Phone, Users } from 'lucide-react'
+import { X, User, Phone, Users } from 'lucide-react'
 
 interface RSVPFormProps {
   onClose: () => void
@@ -11,8 +11,7 @@ interface RSVPFormProps {
 
 export interface RSVPData {
   name: string
-  email: string
-  phone: string
+  phone?: string
   guests: number
   attending: 'yes' | 'no'
   message?: string
@@ -95,42 +94,17 @@ export default function RSVPForm({ onClose, onSubmit }: RSVPFormProps) {
             )}
           </div>
 
-          {/* Email Field */}
-          <div>
-            <label className="block text-gray-700 font-semibold mb-2">
-              <div className="flex items-center gap-2">
-                <Mail className="w-5 h-5 text-indian-orange" />
-                Email Address *
-              </div>
-            </label>
-            <input
-              {...register('email', {
-                required: 'Email is required',
-                pattern: {
-                  value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
-                  message: 'Invalid email address',
-                },
-              })}
-              type="email"
-              className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-indian-orange focus:outline-none transition-colors"
-              placeholder="your.email@example.com"
-            />
-            {errors.email && (
-              <p className="text-red-500 text-sm mt-1">{errors.email.message}</p>
-            )}
-          </div>
 
           {/* Phone Field */}
           <div>
             <label className="block text-gray-700 font-semibold mb-2">
               <div className="flex items-center gap-2">
                 <Phone className="w-5 h-5 text-indian-orange" />
-                Phone Number *
+                Phone Number (Optional)
               </div>
             </label>
             <input
               {...register('phone', {
-                required: 'Phone number is required',
                 pattern: {
                   value: /^[0-9+\-\s()]{10,}$/,
                   message: 'Invalid phone number',

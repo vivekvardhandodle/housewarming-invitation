@@ -85,7 +85,7 @@ export default function Home() {
         >
           <motion.button
             onClick={() => setShowRSVP(true)}
-            className="px-12 py-4 bg-gradient-to-r from-saffron via-indian-orange to-temple-red text-white text-xl font-bold rounded-full shadow-2xl hover:shadow-3xl transform transition-all duration-300"
+            className="px-12 py-4 bg-gradient-to-r from-saffron via-indian-orange to-temple-red text-white text-2xl font-bold rounded-full shadow-2xl hover:shadow-3xl transform transition-all duration-300"
             whileHover={{ scale: 1.05, rotate: [0, -2, 2, -2, 0] }}
             whileTap={{ scale: 0.95 }}
           >
@@ -130,7 +130,7 @@ export default function Home() {
               className="rounded-2xl overflow-hidden border-4 border-gradient-to-r from-saffron via-indian-orange to-temple-red"
             >
               <img
-                src="/DSC_0232.JPG"
+                src="/DSC_0470.JPG"
                 alt="Dodle Family"
                 className="w-full max-w-md h-auto rounded-xl"
               />
@@ -166,22 +166,22 @@ export default function Home() {
           className="text-center mb-8 px-4"
         >
           <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-6 max-w-2xl mx-auto shadow-xl">
-            <p className="text-lg md:text-xl text-gray-600 mb-3">
+            <p className="text-xl md:text-2xl text-gray-600 mb-3">
               ఆహ్వానించువారు
             </p>
-            <p className="text-sm md:text-base text-gray-500 mb-4 italic">
+            <p className="text-base md:text-lg text-gray-500 mb-4 italic">
               Hosts
             </p>
-            <p className="text-2xl md:text-3xl font-bold text-gradient mb-2">
+            <p className="text-3xl md:text-4xl font-bold text-gradient mb-2">
               శ్రీమతి మరియు శ్రీ
             </p>
-            <p className="text-xl md:text-2xl font-semibold text-gray-800 mb-4">
+            <p className="text-2xl md:text-3xl font-semibold text-gray-800 mb-4">
               వాసవి శశిధర్ మరియు శ్రియాన్షి
             </p>
-            <p className="text-base md:text-lg text-gray-600 italic">
+            <p className="text-lg md:text-xl text-gray-600 italic">
               Srimathi and Shri
             </p>
-            <p className="text-lg md:text-xl text-gray-700">
+            <p className="text-xl md:text-2xl text-gray-700">
               Vasavi Shashidhar and Shriyanshi
             </p>
           </div>
@@ -200,22 +200,22 @@ export default function Home() {
             transition={{ duration: 3, repeat: Infinity }}
             className="mb-8 bg-gradient-to-br from-orange-50 to-rose-50 rounded-2xl p-6 shadow-lg"
           >
-            <h3 className="text-2xl md:text-3xl font-bold text-gradient mb-4">
+            <h3 className="text-3xl md:text-4xl font-bold text-gradient mb-4">
               గాయత్రీ మంత్రం
             </h3>
-            <p className="text-xl md:text-2xl font-serif text-gray-800 mb-3 leading-relaxed">
+            <p className="text-2xl md:text-3xl font-serif text-gray-800 mb-3 leading-relaxed">
               ఓం భూర్ భువః స్వః<br />
               తత్ సవితుర్ వరేణ్యం<br />
               భర్గో దేవస్య ధీమహి<br />
               ధియో యో నః ప్రచోదయాత్
             </p>
-            <p className="text-sm md:text-base text-gray-600 italic mt-4">
+            <p className="text-base md:text-lg text-gray-600 italic mt-4">
               Om Bhur Bhuvah Swah<br />
               Tat Savitur Varenyam<br />
               Bhargo Devasya Dhimahi<br />
               Dhiyo Yo Nah Prachodayat
             </p>
-            <p className="text-xs md:text-sm text-gray-500 mt-4">
+            <p className="text-sm md:text-base text-gray-500 mt-4">
               We meditate on the glory of the Creator who has created the Universe,<br />
               who is worthy of worship, and who is the remover of all sins and ignorance.<br />
               May He enlighten our intellect.
