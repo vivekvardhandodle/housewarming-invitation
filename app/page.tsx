@@ -132,7 +132,7 @@ export default function Home() {
               <img
                 src="/DSC_0470.JPG"
                 alt="Dodle Family"
-                className="w-full max-w-md h-auto rounded-xl"
+                className="w-full max-w-lg h-auto rounded-xl"
               />
             </motion.div>
             {/* Decorative corners */}

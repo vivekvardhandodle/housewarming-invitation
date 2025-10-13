@@ -18,7 +18,7 @@ export default function Header() {
         initial={{ scale: 0, rotate: -180 }}
         animate={{ scale: 1, rotate: 0 }}
         transition={{ duration: 1, type: "spring", stiffness: 100 }}
-        className="text-7xl md:text-8xl mb-6"
+        className="text-8xl md:text-9xl mb-6"
       >
         <motion.span
           animate={{ 
@@ -41,10 +41,10 @@ export default function Header() {
         transition={{ duration: 0.8, delay: 0.3 }}
         className="mb-4"
       >
-        <p className="text-xl md:text-2xl text-gray-600 font-light mb-2">
+        <p className="text-2xl md:text-3xl text-gray-600 font-light mb-2">
           దొడ్ల కుటుంబం ఆహ్వానిస్తోంది
         </p>
-        <p className="text-lg md:text-xl text-gray-500 italic">
+        <p className="text-xl md:text-2xl text-gray-500 italic">
           Dodle&apos;s Family invites you to
         </p>
       </motion.div>
@@ -54,7 +54,7 @@ export default function Header() {
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.5 }}
-        className="text-4xl md:text-6xl font-bold text-gradient mb-3 leading-tight py-2"
+        className="text-5xl md:text-7xl font-bold text-gradient mb-3 leading-tight py-2"
         style={{ lineHeight: '1.2' }}
       >
         గృహప్రవేశం
@@ -65,7 +65,7 @@ export default function Header() {
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.7 }}
-        className="text-2xl md:text-3xl font-serif text-gray-700 mb-1"
+        className="text-3xl md:text-4xl font-serif text-gray-700 mb-1"
       >
         House Warming Ceremony
       </motion.h2>
@@ -80,21 +80,21 @@ export default function Header() {
         <motion.span
           animate={{ rotate: 360 }}
           transition={{ duration: 8, repeat: Infinity, ease: "linear" }}
-          className="text-4xl"
+          className="text-5xl"
         >
           🌺
         </motion.span>
         <motion.span
           animate={{ scale: [1, 1.2, 1] }}
           transition={{ duration: 2, repeat: Infinity }}
-          className="text-4xl"
+          className="text-5xl"
         >
           🪔
         </motion.span>
         <motion.span
           animate={{ rotate: -360 }}
           transition={{ duration: 8, repeat: Infinity, ease: "linear" }}
-          className="text-4xl"
+          className="text-5xl"
         >
           🌺
         </motion.span>
