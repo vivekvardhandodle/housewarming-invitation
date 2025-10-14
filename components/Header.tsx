@@ -45,7 +45,7 @@ export default function Header() {
           దొడ్ల కుటుంబం ఆహ్వానిస్తోంది
         </p>
         <p className="text-xl md:text-2xl text-gray-500 italic">
-          Dodle&apos;s Family invites you to
+          Dodla&apos;s Family invites you to
         </p>
       </motion.div>
 
@@ -57,7 +57,7 @@ export default function Header() {
         className="text-5xl md:text-7xl font-bold text-gradient mb-3 leading-tight py-2"
         style={{ lineHeight: '1.2' }}
       >
-        గృహప్రవేశం
+        నూతన గృహ ప్రవేశం
       </motion.h1>
 
       {/* Subtitle */}
@@ -67,7 +67,7 @@ export default function Header() {
         transition={{ duration: 0.8, delay: 0.7 }}
         className="text-3xl md:text-4xl font-serif text-gray-700 mb-1"
       >
-        House Warming Ceremony
+        Housewarming Ceremony
       </motion.h2>
 
       {/* Decorative Elements */}

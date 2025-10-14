@@ -76,7 +76,41 @@ export default function Home() {
           <EventDetails />
         </motion.div>
 
-        {/* RSVP Button */}
+        {/* Lunch Information */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 1.2 }}
+          className="flex justify-center my-8"
+        >
+          <div className="bg-gradient-to-r from-green-50 via-emerald-50 to-teal-50 backdrop-blur-sm rounded-2xl p-6 max-w-2xl mx-auto shadow-xl border border-green-200">
+            <motion.div
+              animate={{ scale: [1, 1.02, 1] }}
+              transition={{ duration: 3, repeat: Infinity }}
+              className="text-center"
+            >
+              <h3 className="text-2xl md:text-3xl font-bold text-emerald-700 mb-4 flex items-center justify-center gap-2">
+                <span className="text-3xl">🍽️</span>
+                Followed by Lunch
+                <span className="text-3xl">🍽️</span>
+              </h3>
+              <div className="space-y-2">
+                <p className="text-xl md:text-2xl font-semibold text-gray-800">
+                  Hall 2, Club House
+                </p>
+                <p className="text-lg md:text-xl text-gray-600">
+                  Kohinoor Auro Realty
+                </p>
+                <p className="text-base md:text-lg text-gray-500 italic mt-3">
+                  Join us for a delicious meal after the ceremony
+                </p>
+              </div>
+            </motion.div>
+          </div>
+        </motion.div>
+
+        {/* RSVP Button - Commented out */}
+        {/* 
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -106,6 +140,7 @@ export default function Home() {
             </span>
           </motion.button>
         </motion.div>
+        */}
 
         {/* Family Photo */}
         <motion.div
@@ -130,8 +165,8 @@ export default function Home() {
               className="rounded-2xl overflow-hidden border-4 border-gradient-to-r from-saffron via-indian-orange to-temple-red"
             >
               <img
-                src="/DSC_0470.JPG"
-                alt="Dodle Family"
+                src="/WhatsApp Image 2025-10-12 at 15.37.09.jpeg"
+                alt="Dodla Family"
                 className="w-full max-w-lg h-auto rounded-xl"
               />
             </motion.div>
@@ -176,7 +211,7 @@ export default function Home() {
               శ్రీమతి మరియు శ్రీ
             </p>
             <p className="text-2xl md:text-3xl font-semibold text-gray-800 mb-4">
-              వాసవి శశిధర్ మరియు శ్రియాన్షి
+              వాసవి శశిధర్ మరియు శ్రీయాన్షి
             </p>
             <p className="text-lg md:text-xl text-gray-600 italic">
               Srimathi and Shri
@@ -266,7 +301,8 @@ export default function Home() {
         </motion.div>
       </div>
 
-      {/* RSVP Modal */}
+      {/* RSVP Modal - Commented out */}
+      {/* 
       <AnimatePresence>
         {showRSVP && (
           <RSVPForm
@@ -275,6 +311,7 @@ export default function Home() {
           />
         )}
       </AnimatePresence>
+      */}
 
       {/* Success Modal */}
       <AnimatePresence>
