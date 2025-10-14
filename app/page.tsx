@@ -99,7 +99,7 @@ export default function Home() {
                   Hall 2, Club House
                 </p>
                 <p className="text-lg md:text-xl text-gray-600">
-                  Kohinoor Auro Realty
+                  Kohinoor Auro Realty, Hitech City, Hyderabad
                 </p>
                 <p className="text-base md:text-lg text-gray-500 italic mt-3">
                   Join us for a delicious meal after the ceremony
