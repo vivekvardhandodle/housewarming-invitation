@@ -96,10 +96,10 @@ export default function Home() {
               </h3>
               <div className="space-y-2">
                 <p className="text-xl md:text-2xl font-semibold text-gray-800">
-                  Hall 2, Club House
+                  Hall 2, Club House, First Floor
                 </p>
                 <p className="text-lg md:text-xl text-gray-600">
-                  Kohinoor Auro Realty, Hitech City, Hyderabad
+                  Kohinoor by Auro Realty, Hitech City, Hyderabad
                 </p>
                 <p className="text-base md:text-lg text-gray-500 italic mt-3">
                   Join us for a delicious meal after the ceremony
@@ -165,7 +165,7 @@ export default function Home() {
               className="rounded-2xl overflow-hidden border-4 border-gradient-to-r from-saffron via-indian-orange to-temple-red"
             >
               <img
-                src="/WhatsApp Image 2025-10-12 at 15.37.09.jpeg"
+                src="/WhatsApp Image 2025-10-14 at 14.16.08.jpeg"
                 alt="Dodla Family"
                 className="w-full max-w-lg h-auto rounded-xl"
               />

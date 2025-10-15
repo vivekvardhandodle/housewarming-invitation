@@ -21,7 +21,7 @@ export default function EventDetails() {
       icon: MapPin,
       label: 'Venue',
       value: 'Flat 2305, Sparkle Tower',
-      subValue: 'Kohinoor Auro Realty, Hitech City, Hyderabad',
+      subValue: 'Kohinoor by Auro Realty, Hitech City, Hyderabad',
     },
   ]
 
